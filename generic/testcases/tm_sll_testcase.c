@@ -42,7 +42,7 @@ int main()
     printList(list);
 
     // Remove element
-    int *removed = (int *)removeFromLinkedList(list, 2, &success);
+    int *removed = (int *)removeFromSinglyLinkedList(list, 2, &success);
     if(success) printf("Removed element: %d\n", *removed);
     printList(list);
 

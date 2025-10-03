@@ -24,7 +24,7 @@ void addToSinglyLinkedList(SinglyLinkedList *singlyLinkedList, void *ptr, bool *
 
 void insertIntoSinglyLinkedList(SinglyLinkedList *singlyLinkedList, int index, void *ptr, bool *success);
 
-void *removeFromLinkedList(SinglyLinkedList *singlyLinkedList, int index, bool *success);
+void *removeFromSinglyLinkedList(SinglyLinkedList *singlyLinkedList, int index, bool *success);
 
 void clearSinglyLinkedList(SinglyLinkedList *singlyLinkedList);
 

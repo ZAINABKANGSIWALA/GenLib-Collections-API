@@ -90,7 +90,7 @@ singlyLinkedList->size++;
 if(success) *success=true;
 }
 
-void *removeFromLinkedList(SinglyLinkedList *singlyLinkedList, int index, bool *success)
+void *removeFromSinglyLinkedList(SinglyLinkedList *singlyLinkedList, int index, bool *success)
 {
 void *ptr;
 SinglyLinkedListNode *p1, *p2;
